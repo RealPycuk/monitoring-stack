@@ -1,0 +1,3 @@
+# Скопируйте в https.yml: сайты, у которых проверяется код ответа и срок TLS-сертификата
+- targets: ["https://app.example.com/"]
+  labels: {service: web}
